@@ -7,3 +7,6 @@ target_link_libraries(hello-world Ginkgo::ginkgo)
 
 add_executable(read-matrix read-matrix.cpp)
 target_link_libraries(read-matrix Ginkgo::ginkgo)
+
+add_executable(matrix-assembly matrix-assembly.cpp)
+target_link_libraries(matrix-assembly Ginkgo::ginkgo)
